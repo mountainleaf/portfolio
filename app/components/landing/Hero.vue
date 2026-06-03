@@ -81,7 +81,7 @@ defineProps<{
         }"
       >
         <span class="font-bold text-xs">Student No. 2200012148</span>
-        <br />
+        <br>
         {{ page.description }}
       </Motion>
     </template>
@@ -103,7 +103,10 @@ defineProps<{
           delay: 0.5
         }"
       >
-        <div v-if="page.hero.links" class="flex items-center gap-2">
+        <div
+          v-if="page.hero.links"
+          class="flex items-center gap-2"
+        >
           <UButton v-bind="page.hero.links[0]" />
           <UButton
             :color="global.available ? 'success' : 'error'"
@@ -152,7 +155,10 @@ defineProps<{
       </div>
     </template>
 
-    <UMarquee pause-on-hover class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]">
+    <UMarquee
+      pause-on-hover
+      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
+    >
       <Motion
         v-for="(img, index) in page.hero.images"
         :key="index"
