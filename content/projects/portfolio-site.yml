@@ -1,0 +1,10 @@
+title: 'This Portfolio — Nuxt 4 + Cloudflare Pages'
+description: |
+  The site you're looking at. Built with Nuxt 4, Nuxt UI v4, Nuxt Content v3,
+  and deployed to Cloudflare Pages via GitHub Actions on every push to dev.
+  A small project, but the one I can fully open-source — written end to end,
+  including the CI/CD pipeline for an undergraduate course assignment.
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3
+url: 'https://github.com/TODO/portfolio'
+tags: ['Nuxt 4', 'TypeScript', 'Tailwind v4', 'Cloudflare Pages', 'CI/CD']
+date: '2026-06-01'

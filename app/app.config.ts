@@ -1,12 +1,15 @@
 export default defineAppConfig({
   global: {
     picture: {
+      // TODO(Tianjiao): replace with your own avatar (light + dark variants).
       dark: 'https://avatars.githubusercontent.com/u/201182741',
       light: 'https://avatars.githubusercontent.com/u/201182741',
-      alt: 'My profile picture'
+      alt: 'Tianjiao Yan\'s avatar'
     },
-    meetingLink: 'https://cal.com/',
-    email: 'ui-pro@nuxt.com',
+    // TODO(Tianjiao): set your real contact email below.
+    email: 'tianjiao.yan@stu.pku.edu.cn',
+    // The "available" badge in the Hero links here. mailto: works well for students.
+    meetingLink: 'mailto:tianjiao.yan@stu.pku.edu.cn',
     available: true
   },
   ui: {
@@ -23,13 +26,22 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
+    credits: `© ${new Date().getFullYear()} Tianjiao Yan · Built with caffeine and curiosity in Beijing`,
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/mountainleaf',
-      'target': '_blank',
-      'aria-label': 'GitHub Profile'
-    }]
+    links: [
+      {
+        'icon': 'i-simple-icons-github',
+        // TODO(Tianjiao): replace with your real GitHub username.
+        'to': 'https://github.com/mountainleaf',
+        'target': '_blank',
+        'aria-label': 'GitHub Profile'
+      },
+      {
+        'icon': 'i-lucide-mail',
+        // TODO(Tianjiao): replace with your real email.
+        'to': 'mailto:tianjiao.yan@stu.pku.edu.cn',
+        'aria-label': 'Email'
+      }
+    ]
   }
 })

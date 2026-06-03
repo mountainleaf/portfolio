@@ -21,15 +21,17 @@ useSeoMeta({
 <template>
   <UPage v-if="page">
     <LandingHero :page />
-    <!-- <UPageSection
+    <UPageSection
       :ui="{
-        container: 'pt-0! lg:grid lg:grid-cols-2 lg:gap-8'
+        container: 'pt-0!'
       }"
     >
-      <LandingAbout :page />
       <LandingWorkExperience :page />
-    </UPageSection> -->
-    <!-- <LandingBlog :page /> -->
+    </UPageSection>
+    <LandingBlog :page />
+    <!-- About / Testimonials / FAQ intentionally disabled for the
+         student-portfolio variant. Re-enable when there's content to back them. -->
+    <!-- <LandingAbout :page /> -->
     <!-- <LandingTestimonials :page /> -->
     <!-- <LandingFAQ :page /> -->
   </UPage>

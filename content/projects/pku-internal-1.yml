@@ -1,0 +1,11 @@
+title: '[Project Name] — Internal Tool at PKU'
+description: |
+  TODO(Tianjiao): one paragraph, 2-3 sentences. Structure:
+  (1) what problem it solves, (2) what you built / your role,
+  (3) one quantified result if you have it (e.g. "cut analysis time by 40%",
+  "used by N students in lab", "processed N samples").
+  Then close with: "Internal at PKU · Code under NDA".
+image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80
+url: '#'
+tags: ['Internal', 'NDA', 'TODO: real tech stack — e.g. Python, FastAPI, PostgreSQL']
+date: '2024-09-01'  # TODO(Tianjiao): real date (ISO YYYY-MM-DD)
